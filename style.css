@@ -1,14 +1,48 @@
-*{
-    margin:100%;
-    padding: 100%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-html, main{
+
+html, body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
-    
+}
+
+#intro {
+    height: 40%;
+    width: 100%;
+    padding: 50px 60px;
+}
+
+#intro h1 {
+    font-size: 120px;
+    letter-spacing: -3px;
+    line-height: 130px;
+}
+
+#place {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, #place h4 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#hero-image {
+    height: 60%; 
+    width: 100%;
+    background-image: url(https://cdn.prod.website-files.com/639e3a353adcb618f4be6835/649142ca15cd08e6df462b86_bent-portfolio-webflow-template-p-800.webp);
+    background-size: cover;
+    background-position: center;
 }
