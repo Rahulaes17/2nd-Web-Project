@@ -78,6 +78,50 @@ html, body {
     line-height: 83px;
 }
 #about-part2{
-    width: 36%;
+    width: 35%;
     height: 100%;
+    border-left: 2px solid;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about-part2 h3{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#icons i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+#work {
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid;
+    padding : 50px 60px;
+    display: flex;
+}
+#work1{
+    height: 100%;
+    width: 35%; 
+    padding-right: 60px ;
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid;
+}
+#work1 h3{
+    font-size: 33px;
+
+}
+#work1 i{
+    font-size: 40px;
+}
+#work2{
+    height: 100%;
+    width: 65%;
 }
