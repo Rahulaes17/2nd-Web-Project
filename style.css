@@ -14,6 +14,22 @@ html, body {
     height: 100%;
     width: 100%;
 }
+#nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
 
 #intro {
     height: 40%;
@@ -45,4 +61,23 @@ html, body {
     background-image: url(https://cdn.prod.website-files.com/639e3a353adcb618f4be6835/649142ca15cd08e6df462b86_bent-portfolio-webflow-template-p-800.webp);
     background-size: cover;
     background-position: center;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2{
+    width: 62%;
+    font-weight: 600;
+    letter-spacing: -3px;
+    font-size: 70px;
+    line-height: 83px;
+}
+#about-part2{
+    width: 36%;
+    height: 100%;
 }
