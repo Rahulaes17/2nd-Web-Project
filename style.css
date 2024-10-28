@@ -131,15 +131,32 @@ html, body {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-  }
+    border-bottom: 2px solid black;
+}
   
-  .work2-part:nth-child(1) .elem {
-    border-bottom: 2px solid;
-  }
+  .work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+}
 
   .work2-part .elem{
     width: 50%;
     height: 100%;
+}
+.work2-part   .elem:nth-child(1) {
+    border-right: 2px solid;
+}
 
-  }
-  
+.work2-part   .elem:nth-child(2) {
+    padding-left: 60px;
+}
+
+.work2-part .elem h4{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px; ;
+}
+.work2-part .elem p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(55, 52, 52);
+}
