@@ -121,7 +121,25 @@ html, body {
 #work1 i{
     font-size: 40px;
 }
-#work2{
+.work2{
     height: 100%;
     width: 65%;
+    padding: 0px 60px;
 }
+.work2-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .work2-part:nth-child(1) .elem {
+    border-bottom: 2px solid;
+  }
+
+  .work2-part .elem{
+    width: 50%;
+    height: 100%;
+
+  }
+  
